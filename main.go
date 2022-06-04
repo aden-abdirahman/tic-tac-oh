@@ -33,11 +33,11 @@ func main() {
 	rl.InitWindow(screenWidth, screenHeight, "Tic Tac Toe")
 	rl.SetMouseScale(1.0, 1.0)
 
-	// x = rl.LoadTexture("assets/x.png")
-	// o = rl.LoadTexture("assets/o.png")
+	x = rl.LoadTexture("assets/x.png")
+	o = rl.LoadTexture("assets/o.png")
 
-	x = rl.LoadTexture("/Users/Abdirahman/Desktop/Go Projects/tic-tac-oh/assets/x.png")
-	o = rl.LoadTexture("/Users/Abdirahman/Desktop/Go Projects/tic-tac-oh/assets/o.png")
+	// x = rl.LoadTexture("/Users/Abdirahman/Desktop/Go Projects/tic-tac-oh/assets/x.png")
+	// o = rl.LoadTexture("/Users/Abdirahman/Desktop/Go Projects/tic-tac-oh/assets/o.png")
 
 	rl.SetTargetFPS(60)
 
